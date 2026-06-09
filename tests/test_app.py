@@ -38,3 +38,9 @@ class TestMultiply:
         """Test multiplying negative numbers."""
         assert multiply(-2, 3) == -6
 
+    def test_multiple(self):
+    """Test multiplying two positive numbers."""
+    assert multiply(9, 9) == 18  # This is wrong!
+
+
+
