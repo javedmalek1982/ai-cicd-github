@@ -40,5 +40,5 @@ class TestMultiply:
 
     def test_multiple(self):
         """Test multiplying two positive numbers."""
-        assert multiply(9, 9) == 18 # (This is the broken assertion from Step #3)
+        assert multiply(9, 9) == 81 # (This is the broken assertion from Step #3)
 
